@@ -1,0 +1,83 @@
+
+T7B4B2310 000:000 SEGGER J-Link V4.74 Log File (0000ms, 0000ms total)
+T7B4B2310 000:000 DLL Compiled: Jul 17 2013 11:48:50 (0000ms, 0000ms total)
+T7B4B2310 000:000 Logging started @ 2014-03-11 11:32 (0000ms, 0000ms total)
+T7B4B2310 000:000 JLINK_SetWarnOutHandler(...) (0000ms, 0000ms total)
+T7B4B2310 000:000 JLINK_SelectUSB(Port = 0)  returns 0x00 (0000ms, 0000ms total)
+T7B4B2310 000:000 JLINK_OpenEx(...)
+Firmware: J-Link Pro V4 compiled Dec 13 2013 15:16:01
+Hardware: V4.00
+S/N: 174300509
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB  returns O.K. (0017ms, 0017ms total)
+T7B4B2310 000:017 JLINK_SetErrorOutHandler(...) (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_EnableLog(...) (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_SetInitRegsOnReset(OFF)  returns 0x01 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetDLLVersion()  returns 47400 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetCompileDateTime() (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetFirmwareString(...) (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetHardwareVersion()  returns 0x9C40 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_EMU_HasCapEx(0x00000026)  returns 0x01 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_EMU_HasCapEx(0x00000026)  returns 0x01 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_ReadEmuConfigMem(..., Off = 0x20, NumBytes = 0x04)  returns 0x00 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetHWInfo(...)  returns 0x00 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_GetHWStatus(...)  returns 0x00 (0000ms, 0017ms total)
+T7B4B2310 000:017 JLINK_SetSpeed(100) (0001ms, 0018ms total)
+T7B4B2310 000:018 JLINK_GetEmuCaps()  returns 0xB9FF7BBF (0000ms, 0018ms total)
+T7B4B2310 000:018 JLINK_TIF_GetAvailable(...) (0000ms, 0018ms total)
+T7B4B2310 000:018 JLINK_Connect() >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG>  returns 0x01 (0009ms, 0027ms total)
+T7B4B2310 000:027 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..000000000000000000000000 >0x30 JTAG> (0009ms, 0036ms total)
+T7B4B2310 000:036 JLINK_ClrError() (0000ms, 0036ms total)
+T7B4B2310 000:036 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0001ms, 0037ms total)
+T7B4B2310 000:037 JLINK_Connect() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF>
+ >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+FPUnit: 4 code (BP) slots and 0 literal slots >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>Found Cortex-M0 r0p0, Little endian.  returns 0x00 (0038ms, 0075ms total)
+T7B4B2310 000:075 JLINK_CORE_GetFound()  returns 0x60000FF (0000ms, 0075ms total)
+T7B4B2310 000:075 JLINK_GetDeviceFamily()  returns 6 (0000ms, 0075ms total)
+T7B4B2310 000:075 JLINK_GetDeviceFamily()  returns 6 (0000ms, 0075ms total)
+T7B4B2310 000:075 JLINK_SetSpeed(100) (0000ms, 0075ms total)
+T7B4B2310 000:075 JLINK_GetHWStatus(...)  returns 0x00 (0001ms, 0076ms total)
+T7B4B2310 000:076 JLINK_GetSpeedInfo() 1600000000 Hz / n, n >= 32 (0000ms, 0076ms total)
+T7B4B2310 000:076 JLINK_MeasureRTCKReactTime() (0000ms, 0076ms total)
+T7B4B2310 000:076 JLINK_GetSpeed()  returns 0x64 (0000ms, 0076ms total)
+T7B4B2310 000:076 JLINK_ExecCommand("device=nrf51822", ...)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "NRF51822" selected (257 KB flash, 8 KB RAM).  returns 0x00 (0001ms, 0077ms total)
+T7B4B2310 000:077 JLINK_Connect() >0x108 TIF>Found SWD-DP with ID 0x0BB11477 >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF>
+ >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF>FPUnit: 4 code (BP) slots and 0 literal slots >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF> >0x0D TIF> >0x28 TIF> >0x35 TIF> >0x35 TIF>Found Cortex-M0 r0p0, Little endian.  returns 0x00 (0047ms, 0124ms total)
+T7B4B2310 000:124 JLINK_SetSpeed(1000) (0001ms, 0125ms total)
+T7B4B2310 000:125 JLINK_GetSpeed()  returns 0x3E8 (0000ms, 0125ms total)
+T7B4B2310 000:125 JLINK_WriteU32(0x4001E504, 0x00000002) -- CPU is running -- CPU_WriteMem(4 bytes @ 0x4001E504)  returns 0x00 (0000ms, 0125ms total)
+T7B4B2310 000:125 JLINK_WriteU32(0x4001E50C, 0x00000001) -- CPU is running -- CPU_WriteMem(4 bytes @ 0x4001E50C)  returns 0x00 (0001ms, 0126ms total)
+T7B4B2310 000:126 JLINK_WriteU32(0x4001E514, 0x00000001) -- CPU is running -- CPU_WriteMem(4 bytes @ 0x4001E514)  returns 0x00 (0001ms, 0127ms total)
+T7B4B2310 000:228 JLINK_SetResetDelay(0) (0000ms, 0127ms total)
+T7B4B2310 000:228 JLINK_Reset() -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU is running -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+ -- CPU_WriteMem(4 bytes @ 0xE0002000) (0018ms, 0145ms total)
+T7B4B2310 000:246 JLINK_WriteU32(0x4001E504, 0x00000001) -- CPU_WriteMem(4 bytes @ 0x4001E504)  returns 0x00 (0001ms, 0146ms total)
+T7B4B2310 000:247 JLINK_SetSpeed(1000) (0000ms, 0146ms total)
+T7B4B2310 000:247 JLINK_GetSpeed()  returns 0x3E8 (0000ms, 0146ms total)
+T7B4B2310 000:248 JLINK_IsHalted()  returns TRUE (0000ms, 0146ms total)
+T7B4B2310 000:248 JLINK_BeginDownload(Flags = 0x00) (0000ms, 0146ms total)
+T7B4B2310 000:248 JLINK_WriteMem(0x10001000, 0x0018 Bytes, ...) -- Data:  00 40 01 00 FF FF FF FF FF FF FF FF FF FF FF FF ...  returns 0x18 (0000ms, 0146ms total)
+T7B4B2310 000:248 JLINK_EndDownload() -- -------------------------------------- -- Start of determining dirty areas -- End of determining dirty areas -- Start of preparing flash programming -- Calculating RAM usage -- RAM usage = 2204 Bytes -- Preserving registers -- Preparing memory -- Determining CPU clock frequency -- CPU clock frequency: 15985 kHz -- CPU frequency = 15985 kHz -- Preparing target -- Downloading RAMCode -- Using alternate TurboMode RAMCode -- Checking target RAM -- Preparing RAMCode
+ -- End of preparing flash programming -- CPU is running at 15985 kHz. -- Start of comparing flash -- CRC check was estimated as fastest method -- Comparing range 0x10001000 - 0x100013FF (1 Sector, 1024 Bytes), using multi-block CRC calculation -- CRC does not match for sector 0 -- End of comparing flash -- Start of erasing sectors -- End of erasing sectors -- Start of flash programming -- Programming range 0x10001000 - 0x100013FF (  1 Sector, 1024 Bytes) -- End of flash programming
+ -- Flash programming performed for 1 range (1024 bytes) -- 0x10001000 - 0x100013FF (001 Sector, 1024 Bytes) -- Start of verifying flash -- Checksum calculation was estimated as fastest method -- End of verifying flash -- Start of restoring -- Restore RAMCode -- Restore content of target memory -- Restore target -- Restore memory -- Restore content of registers -- End of restoring
+ -- Total time needed: 0.096s (Prepare: 0.080s, Compare: 0.001s, Erase: 0.000s, Program: 0.007s, Verify: 0.000s, Restore: 0.006s)  returns 0x400 (0096ms, 0242ms total)
+T7B4B2310 000:345 JLINK_IsHalted()  returns TRUE (0000ms, 0242ms total)
+T7B4B2310 000:345 JLINK_BeginDownload(Flags = 0x00) (0000ms, 0242ms total)
+T7B4B2310 000:345 JLINK_WriteMem(0x00000000, 0x11808 Bytes, ...) -- Data:  D0 1B 00 20 CD 14 01 00 41 06 01 00 1F 14 01 00 ... -- MA0 is in flash  returns 0x11808 (0000ms, 0242ms total)
+T7B4B2310 000:345 JLINK_EndDownload() -- -------------------------------------- -- Start of determining dirty areas -- End of determining dirty areas -- Start of preparing flash programming -- Calculating RAM usage -- RAM usage = 5788 Bytes -- Preserving registers -- Preparing memory -- Determining CPU clock frequency -- CPU clock frequency: 15984 kHz -- CPU frequency = 15984 kHz -- Preparing target -- Preserving target memory used for RAMCode and buffer -- Downloading RAMCode -- Preparing RAMCode
+ -- End of preparing flash programming -- CPU is running at 15984 kHz. -- Start of comparing flash -- CRC check was estimated as fastest method -- Comparing range 0x0000 - 0x11BFF (71 Sectors, 71 KB), using multi-block CRC calculation -- CRC does not match for sectors 0-70 -- Comparing range 0x10001000 - 0x100013FF (1 Sector, 1024 Bytes), using multi-block CRC calculation -- All CRCs match -- End of comparing flash -- Start of erasing sectors -- End of erasing sectors -- Start of flash programming
+ -- Programming range 0x00000000 - 0x00007FFF ( 32 Sectors, 32 KB) -- Programming range 0x00008000 - 0x0000FFFF ( 32 Sectors, 32 KB) -- Programming range 0x00010000 - 0x00011BFF (  7 Sectors, 7 KB) -- End of flash programming -- Flash programming performed for 1 range (72704 bytes) -- 0x0000 - 0x11BFF (071 Sectors, 71 KB) -- Start of verifying flash -- Checksum calculation was estimated as fastest method -- End of verifying flash -- Start of restoring -- Restore RAMCode
+ -- Restore content of target memory -- Restore target -- Restore memory -- Restore content of registers -- End of restoring -- Total time needed: 1.332s (Prepare: 0.159s, Compare: 0.019s, Erase: 0.000s, Program: 1.070s, Verify: 0.004s, Restore: 0.079s)  returns 0x11C00 (1333ms, 1575ms total)
+T7B4B2310 001:678 JLINK_IsHalted()  returns TRUE (0000ms, 1575ms total)
+T7B4B2310 001:678 JLINK_BeginDownload(Flags = 0x00) (0001ms, 1576ms total)
+T7B4B2310 001:679 JLINK_WriteMem(0x00014000, 0x6088 Bytes, ...) -- Data:  00 40 00 20 05 6F 01 00 59 6F 01 00 5B 6F 01 00 ... -- MA0 is in flash  returns 0x6088 (0000ms, 1576ms total)
+T7B4B2310 001:679 JLINK_EndDownload() -- -------------------------------------- -- Start of determining dirty areas -- End of determining dirty areas -- Start of preparing flash programming -- Calculating RAM usage -- RAM usage = 5788 Bytes -- Preserving registers -- Preparing memory -- Determining CPU clock frequency -- CPU clock frequency: 15984 kHz -- CPU frequency = 15984 kHz -- Preparing target -- Preserving target memory used for RAMCode and buffer -- Downloading RAMCode -- Preparing RAMCode
+ -- End of preparing flash programming -- CPU is running at 15984 kHz. -- Start of comparing flash -- CRC check was estimated as fastest method -- Comparing range 0x0000 - 0x11BFF (71 Sectors, 71 KB), using multi-block CRC calculation -- All CRCs match -- Comparing range 0x14000 - 0x1A3FF (25 Sectors, 25 KB), using multi-block CRC calculation -- CRC does not match for sectors 0-24 -- Comparing range 0x10001000 - 0x100013FF (1 Sector, 1024 Bytes), using multi-block CRC calculation -- All CRCs match
+ -- End of comparing flash -- Start of erasing sectors -- End of erasing sectors -- Start of flash programming -- Programming range 0x00014000 - 0x0001A3FF ( 25 Sectors, 25 KB) -- End of flash programming -- Flash programming performed for 1 range (25600 bytes) -- 0x14000 - 0x1A3FF (025 Sectors, 25 KB) -- Start of verifying flash -- Checksum calculation was estimated as fastest method -- End of verifying flash -- Start of restoring -- Restore RAMCode -- Restore content of target memory -- Restore target
+ -- Restore memory -- Restore content of registers -- End of restoring -- Total time needed: 0.722s (Prepare: 0.158s, Compare: 0.101s, Erase: 0.000s, Program: 0.380s, Verify: 0.001s, Restore: 0.080s)  returns 0x6400 (0722ms, 2298ms total)
+T7B4B2310 002:401 JLINK_SetResetDelay(0) (0000ms, 2298ms total)
+T7B4B2310 002:401 JLINK_Reset() -- CPU_ReadMem(4 bytes @ 0x20000000) -- CPU_WriteMem(4 bytes @ 0x20000000) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) >0x35 TIF> -- CPU_WriteMem(4 bytes @ 0xE000ED0C) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE000EDFC) -- CPU is running -- CPU_ReadMem(4 bytes @ 0xE000EDF0) -- CPU_WriteMem(4 bytes @ 0xE0002000) (0020ms, 2318ms total)
+T7B4B2310 002:421 JLINK_Close() >0x42 TIF> >0x28 TIF> >0x35 TIF> (0005ms, 2323ms total)
